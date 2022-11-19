@@ -2,11 +2,9 @@ function talk() {
     var know = {
         "Who are you": "Hello, Your Assistant here ",
         "How are you": "Good :) What can i do for you",
-        "Play Song": "Search CodeWithRandom on Google>>Thank Me Later",
-        "Your followers":
-            "I have my family of 200000 members, i don't have follower ,have supportive Famiy ",
-        ok: "Thank You So Much ",
-        Bye: "Okay! Will meet soon..",
+        "Play Song": "Search on Google>>Thank Me Later",
+         ok: "Thank You So Much ",
+         Bye: "Okay! Will meet soon..",
     };
     var user = document.getElementById("userBox").value;
     document.getElementById("chatLog").innerHTML = user + "<br>";
